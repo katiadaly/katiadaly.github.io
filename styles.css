@@ -30,11 +30,7 @@ table {
     width: 80%;
 }
 
-tr{
-    border: #52796f dashed 1px;
-}
-
-td {
+thead, td {
     border: #52796f dashed 1px;
     padding: 10px;
     width: 40%;
