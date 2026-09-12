@@ -24,12 +24,18 @@ header {
 }
 
 table {
+    border: #52796f dashed 1px;
     justify-self: center;
     text-align: left;
     width: 80%;
 }
 
+tr{
+    border: #52796f dashed 1px;
+}
+
 td {
+    border: #52796f dashed 1px;
     padding: 10px;
     width: 40%;
 }
