@@ -1,0 +1,69 @@
+body {
+    background-color: f6f4d2;
+    font-family: "Valley Sans", sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: #cad2c5;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    background-color: #52796f;
+}
+
+.aboutMe {
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+table {
+    justify-self: center;
+    text-align: left;
+    width: 80%;
+}
+
+td {
+    padding: 10px;
+    width: 40%;
+}
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.work > div{
+    border: #cad2c5 dashed 2px;
+    background-color: #d4e09b;
+    padding: 15px;
+    margin: 20px;
+    width: 400px;
+}
+
+a {
+    color: #84a9ac;
+}
+
+a:hover {
+    color: #a44a3f;
+}
+
+footer {
+    background-color: #52796f;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+
+img{
+    border-radius: 50%;
+}

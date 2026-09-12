@@ -4,49 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katia's About Me</title>
-</head>
+    <title>Katia Daly</title>
 
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
 <header>
-    <h1>Katia Daly</h1>
-    <p>My name is Katia and I am a junior Computer Science major with a concentration in Web and Application Design. I
-        love to read, crochet, and watch movies with my friends.</p>
+    <h1>Hi there!</h1>
+    <h1> I'm Katia Daly</h1>
 </header>
 
-<main>
-    <h2>My Classes This Semester</h2>
-    <ul>
-        <li>CS 310 - Web Development</li>
-        <li>CS 341 - Software Engineering</li>
-        <li>CS 296 - Professional Development</li>
-        <li>EC 102 - Principles of Microeconomics</li>
-        <li>PH 267 - Climate Change: Action, Ethics, and the Future</li>
-    </ul>
-    <h2>My Favorite Movies</h2>
-    <ul>
-        <li>Project Hail Mary <a
-                href="https://www.imdb.com/title/tt12042730/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_proj">(IMDB)</a></li>
-        <li>The Princess Bride <a
-                href="https://www.imdb.com/title/tt0093779/?ref_=nv_sr_srsg_3_tt_5_nm_3_in_0_q_the%20princ">(IMDB)</a>
-        </li>
-        <li>Porco Rosso <a
-                href="https://www.imdb.com/title/tt0104652/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_porco">(IMDB)</a></li>
-        <li>Return of the Jedi <a
-                href="https://www.imdb.com/title/tt0086190/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_return%20of">(IMDB)</a>
-        </li>
-    </ul>
-    <h2>My Moods</h2>
-    <table>
-        <tr>
-            When I feel happy: <img src="images/616ee4ea6963c13552a0062c1d2ece18.jpg" height=400>
-        </tr>
-        <tr>
-            When I feel sad: <img src="images/8878c1ef4d8a283ef51c0612d5ba7a06.jpg" height=400>
-        </tr>
-    </table>
-</main>
+<body>
+    <div class="about">
+        <div>
+            <h2>A little about me</h2>
+            <p class="aboutMe">I am a junior computer science major with a concentration in web and application design
+                at Elizabethtown College. Outside of coding, I enjoy crocheting, line dancing, reading, and watching
+                movies
+                with my friends.</p>
+            <img src="images/b7c6ea4e-7288-4262-b415-60077716c632~1.jpg" width="300" height="300" alt="Katia photo">
+        </div>
+    </div>
+    <div class="courses">
+        <h2>My Classes</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>
+                        <h3>My current schedule</h3>
+                    </td>
+                    <td>
+                        <h3>Some past CS courses I've taken</h3>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS 310 - Web Development</td>
+                    <td>CS 209 - Database Systems</td>
+                </tr>
+                <tr>
+                    <td>CS 341 - Software Engineering</td>
+                    <td>CS 221 - Data Structures</td>
+                </tr>
+                <tr>
+                    <td>CS 296 - Professional Development</td>
+                    <td>CS 250 - Foundations of AI & Data Science</td>
+                </tr>
+                <tr>
+                    <td>EC 102 - Microeconomics</td>
+                    <td>CS 222 - Systems Programming</td>
+                </tr>
+                <tr>
+                    <td>PH 267 - Climate Change: Action, Ethics, and the Future</td>
+                    <td>CS 230 - Computer Architecture</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2>Work Experience and Projects!</h2>
+    <div class="work">
+        <div>
+            <h3 class="scarp">Summer Student Research Assistant</h3>
+            <p> This summer I had the privelege to work on developing an AI driven document to video system
+                called BluEdu that turned student's computer science notes into short 1-2 minute long educational
+                videos. I
+                worked on the front end while my partner worked on the backend AI video generation pipeline. We worked
+                on
+                the project for 10 weeks and presented our research at the 17th Annual Landmark Conference Summer
+                Research
+                Symposium at Goucher College. If you are interested in learning more about the project, check out our
+                <a href="https://github.com/Etown-CS/26_SCARP_EduVideo">Github</a>.
+            </p>
+        </div>
+        <div>
+            <h3 class="techops">Technical Operations Student Assistant/Front of House Student Assistant</h3>
+            <p>During the academic year I work as a student assistant for Elizabethtown College's Technical Operations
+                Department. Technical Operations is responsible for all of the event spaces on campus. I work as a Front
+                of
+                House assistant, helping welcome guests and lead them to their seats as well as a technical student
+                assistant behind the scenes running the light or sound boards. </p>
+        </div>
+        <div>
+            <h3 class="tutor">Peer Tutor</h3>
+            <p>During the academic year I also work as a peer tutor. I meet with students one-on-one to help them gain a
+                greater understanding of course content by providing them with study materials and explaining the
+                content in
+                new ways. My main tutoring subject is math, more specifically probability and statistics.</p>
+        </div>
+    </div>
+</body>
+
 <footer>
-    <p>Copyright katiadaly 2026</p>
+    <p><a href="https://github.com/katiadaly">Github</a> <a
+            href="https://www.linkedin.com/in/katia-daly-b29522387/">LinkedIn</a></p>
+    <p>Contact me at: <a href="mailto:dalyk@etown.edu">dalyk@etown.edu</a></p>
+    <p>Copyright Katia Daly 2026 </p>
 </footer>
 
 </html>
