@@ -2,6 +2,7 @@ body {
     background-color: f6f4d2;
     font-family: "Valley Sans", sans-serif;
     text-align: center;
+    color: #2F3E46;
 }
 
 header {
@@ -36,6 +37,10 @@ thead, td {
     width: 40%;
 }
 
+tbody tr td{
+    color: #52796f;
+}
+
 .work{
     display: flex;
     flex-wrap: wrap;
@@ -43,11 +48,16 @@ thead, td {
 }
 
 .work > div{
-    border: #cad2c5 dashed 2px;
+    border: #52796f dashed 2px;
     background-color: #d4e09b;
     padding: 15px;
     margin: 20px;
     width: 400px;
+    /* flex-grow: 3; */
+}
+
+.work .exp{
+    color: #a44a3f;
 }
 
 a {
